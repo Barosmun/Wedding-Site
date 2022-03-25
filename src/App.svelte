@@ -4,6 +4,7 @@
 
 <main>
 	<h1>Hello {name}!</h1>
+	<p> test site in progress </p>
 </main>
 
 <style>
