@@ -1,3 +1,12 @@
+:root {
+	--light: #fdfdfb;
+	--texture-mid: #EEEEE7;
+	--texture-dark: #DFDED3;
+
+	--half: #A3A3A1;
+	--dark: #494846;
+}
+
 html, body {
 	position: relative;
 	width: 100%;
@@ -5,6 +14,16 @@ html, body {
 }
 
 body {
+	/* background:
+    radial-gradient(var(--texture-dark) 3px, transparent 4px),
+    radial-gradient(var(--texture-dark) 3px, transparent 4px),
+    linear-gradient(var(--light) 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, var(--texture-mid) 75px, var(--texture-mid) 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, var(--texture-mid) 76px, var(--texture-mid) 77px, transparent 78px, transparent 109px),
+    var(--light);
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px; */
+	background-color: var(--light);
 	color: #333;
 	margin: 0;
 	padding: 8px;
