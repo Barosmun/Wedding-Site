@@ -25,11 +25,31 @@
 		</div>
 
 		<div class="circle" style="
-		background-image: url('images/flowers.jpg');
+		background-image: url('images/selfie.jpg');
 		background-repeat: no-repeat;
 		background-size: 640px;
 		background-size: cover;
 		border-radius: 50%; position:absolute;">
+
+		</div>
+	</div>
+
+	<br />
+
+	<div class="images">
+		<div class="frame rectangle-frame" style="
+		background-image: url('images/rectangle.png');
+		background-repeat: no-repeat;
+		background-size: 640px;  position:absolute;">
+			
+		</div>
+
+		<div class="rectangle" style="
+		background-image: url('images/selfie.jpg');
+		background-repeat: no-repeat;
+		background-size: 640px;
+		background-size: cover;
+		position:absolute;">
 
 		</div>
 	</div>
@@ -63,9 +83,8 @@
 	}
 
 	.images { 
-		width: 1280px;
-		height: 1280px;
-		border: black 2px solid;
+		width: 640px;
+		height: 1000px;
 	}
 
 	.circle {
@@ -76,19 +95,20 @@
 	}
 
 	.rectangle {
-		width: 640px;
-		height: 640px;
+		width: 310px;
+		height: 464px;
+		margin-left: 163px;
+		margin-top: 190px;
 	}
 
 	.circle-frame {
 		width: 640px;
-		height: 640px;
-		display: flex;
+		height: 1000px;
 	}
 
 	.rectangle-frame {
 		width: 640px;
-		height: 640px;
+		height: 1000px;
 	}
 
 	/* ------ */
